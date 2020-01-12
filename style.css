@@ -18,7 +18,7 @@ button:hover {
 	color: black;
 }
 
-input:hover {
+.searchBox:hover {
 	box-shadow: 2px 2px 5px -4px gray, -2px -2px 5px -4px gray;
 }
 
