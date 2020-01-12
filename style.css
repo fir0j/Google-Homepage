@@ -6,6 +6,11 @@ body {
 
 .languages p > * {
 	color: #1a0dab;
+	font-size: 0.6rem;
+}
+
+.languages p {
+	font-size: 0.7rem;
 }
 
 footer,
