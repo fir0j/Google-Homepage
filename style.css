@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+	font-family: Roboto, sans-serif;
+}
+
+.languages p > * {
+	color: #1a0dab;
+}
+
+footer,
+button {
+	background-color: #f2f2f2;
+}
+
+button:hover {
+	border: 1px solid rgba(0, 0, 0, 0.404);
+	color: black;
+}
+
+input:hover {
+	box-shadow: 2px 2px 5px -4px gray, -2px -2px 5px -4px gray;
+}
+
+figure img {
+	max-width: 14rem;
+}
+
+@media only screen and (min-width: 320px) {
+	footer {
+		font-size: 0.5rem;
+	}
+}

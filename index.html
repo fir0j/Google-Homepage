@@ -7,9 +7,10 @@
         <title>Google</title>
         <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
             rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
     </head>
-    <body class="">
-        <nav class="border py-4">
+    <body class="text-gray-800">
+        <nav class="py-4 text-xs">
             <ul class="flex justify-end">
                 <a class="inline mr-4" href="https://mail.google.com/">Gmail</a>
                 <a class="inline mr-4" href="https://images.google.com/">Images</a>
@@ -19,7 +20,7 @@
                         class="inline"
                         src="https://res.cloudinary.com/wilfredxd/image/upload/v1471790653/apps_jbdno1.png">
                 </a>
-                <a class="inline mr-4" href="#">
+                <a class="inline mr-4 w-6 h-6" href="#">
 
                     <img
                         src="https://res.cloudinary.com/wilfredxd/image/upload/v1471790653/blueperson_i3ahzk.png"
@@ -28,54 +29,66 @@
             </ul>
         </nav>
 
-        <div class="border m-1 text-center text-xs">
-            <figure class="mt-32 mb-4">
-                <img class="inline-block w-1/3" alt="google"
+        <div class="m-1 text-center text-xs">
+            <figure class="mt-24 mb-4">
+                <img class="inline-block w-4/12" alt="google"
                     src="https://res.cloudinary.com/wilfredxd/image/upload/v1471790654/google-logo_paxdp8.png">
             </figure>
 
-                <form class="" action="#" method="get">
-                    <input class="border rounded-full shadow-sm
-                        h-7
-                        p-1
-                        w-3/4"
-                        type="search"
-                        name="search">
-                </form>
+            <form class="" action="#" method="get">
+                <input class="pl-4 border focus:outline-none focus:shadow-md rounded-full shadow-sm
+                    h-7
+                    p-1
+                    lg: h-8
+                    w-3/4
+                    sm:max-w-3/4
+                    max-w-xl"type="search"
+                    name="search">
+            </form>
 
-                <div class="my-4">
-                    <button class="bg-gray-100 py-1 px-2 mx-2 border rounded">Google
-                        Search</button>
-                    <button class="bg-gray-100 py-1 px-2 mx-2 border rounded">I'm
-                        Feeling
-                        Lucky</button>
-                </div>
+            <div class="my-4">
+                <button class="py-1 px-2 mx-2 rounded hover:shadow">Google
+                    Search</button>
+                <button class="py-1 px-2 mx-2 rounded hover:shadow">I'm
+                    Feeling
+                    Lucky</button>
+            </div>
 
-                <div class="text-center">
-                    <p>Google offered in:
-                        <span class=""><a href="#">Hindi</a></span>
-                        <span class=""><a href="#">Nepali</a></span>
-                        <span class=""><a href="#">Spanish</a></span>
-                        <span class=""><a href="#">Arabi</a></span>
-                    </p>
-                </div>
-
+            <div class="languages text-center">
+                <p>Google offered in:
+                    <span class="text-blue-600"><a href="#">Hindi</a></span>
+                    <span class="text-blue-600"><a href="#">Nepali</a></span>
+                    <span class="text-blue-600"><a href="#">Spanish</a></span>
+                    <span class="text-blue-600"><a href="#">Arabi</a></span>
+                </p>
             </div>
 
         </div>
 
-        <footer class="bg-gray-200 absolute bottom-0 w-full pl-4 pr-2">
-            <p class="">India</p>
-            <ul class="flex justify-between border">
-                <li><a href="https://www.google.com/services/">Business</a></li>
-                <li><a href="https://www.google.com/intl/en/ads/">Advertising</a></li>
-                <li><a href="https://www.google.com/preferences">Settings</a></li>
-                <li> <a
-                        href="https://www.google.com.sg/intl/en/policies/terms/regional.html">
-                        Terms </a>
-                </li>
-                <li><a href="https://www.google.com/intl/en/policies/">Privacy</a></li>
+    </div>
+
+    <footer class="absolute bottom-0 w-full pl-4 pr-2 sm:text-xs text-gray-700">
+        <div class="flex items-center h-10">
+            <p>India</p>
+        </div>
+        <hr>
+        <div class="flex">
+            <ul class="flex  items-center w-8/12 h-10">
+                <li class="mr-1 sm:mr-3"><a href="https://www.google.com/intl/en/ads/">Advertising</a></li class="mr-3 min-mr-2">
+                <li class="mr-1 sm:mr-3"><a href="https://www.google.com/services/">Business</a></li>
+                <li class="mr-1 sm:mr-3"><a href="https://www.google.com/services/">About</a></li>
+                <li class=""><a href="https://www.google.com/services/">How Search works</a></li>
             </ul>
+
+            <ul class="flex justify-end items-center w-4/12 h-10">
+                <li class=""> <a
+                        href="https://www.google.com.sg/intl/en/policies/terms/regional.html">
+                        Terms </a> </li>
+                <li class="ml-2"><a href="https://www.google.com/intl/en/policies/">Privacy</a></li>
+                <li class="ml-2"><a href="https://www.google.com/preferences">Settings</a></li>
+            </ul>
+
+            </div>  
         </footer>
 
     </body>
