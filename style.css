@@ -4,10 +4,6 @@ body {
 	font-family: Roboto, sans-serif;
 }
 
-.googleLogo {
-	transform: scale(1.20);
-}
-
 form div {
 	border: 1px solid #dfe1e5;
 }
@@ -47,7 +43,30 @@ figure img {
 
 @media only screen and (min-width: 320px) {
 	footer {
-		font-size: 0.5rem;
-		font: 13px arial sans-serif;
+		font: 0.25rem arial sans-serif;
+	}
+	.googleLogo {
+		transform: scale(0.8);
+	}
+}
+
+@media only screen and (min-width: 480px) {
+	footer {
+		font: 0.6rem arial sans-serif;
+	}
+}
+
+@media only screen and (min-width: 640px) {
+	footer {
+		font: 0.8rem arial sans-serif;
+	}
+	.googleLogo {
+		transform: scale(1);
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.googleLogo {
+		transform: scale(1.2);
 	}
 }
