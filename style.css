@@ -4,13 +4,21 @@ body {
 	font-family: Roboto, sans-serif;
 }
 
+.googleLogo {
+	transform: scale(1.20);
+}
+
+form div {
+	border: 1px solid #dfe1e5;
+}
+
 .languages p > * {
 	color: #1a0dab;
-	font-size: 0.6rem;
+	font-size: 0.8rem;
 }
 
 .languages p {
-	font-size: 0.7rem;
+	font-size: .8rem;
 }
 
 footer,
