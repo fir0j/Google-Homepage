@@ -24,11 +24,17 @@ form div {
 footer,
 button {
 	background-color: #f2f2f2;
+	color: #5f6368;
 }
 
 button:hover {
 	border: 1px solid rgba(0, 0, 0, 0.404);
 	color: black;
+}
+
+.searchBox {
+	max-width: 582px;
+	max-height: 45px;
 }
 
 .searchBox:hover {
@@ -42,5 +48,6 @@ figure img {
 @media only screen and (min-width: 320px) {
 	footer {
 		font-size: 0.5rem;
+		font: 13px arial sans-serif;
 	}
 }
